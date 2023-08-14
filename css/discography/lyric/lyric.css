@@ -1,0 +1,79 @@
+/* LYRIC */
+
+.lyric {
+  background-color: #b70000;
+  width: 50%;
+  position: relative;
+  top: -350px;
+  left: 850px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.lyric h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: white;
+}
+
+.lyric p {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  font-family: "Montserrat", sans-serif;
+  color: rgba(255, 255, 255, 0.829);
+  text-align: center;
+  line-height: 1.5;
+}
+/* END */
+
+/* LIST SONG */
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+.list-song {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 30%;
+  height: auto;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  margin-bottom: 25px;
+
+  display: inline-block;
+  border: 3px solid #333333;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  background: #e76f51c9;
+}
+
+.list-song h2 {
+  text-align: center;
+  color: white;
+}
+
+.box-title {
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+  transform: rotate(2deg);
+  margin: 15px;
+  padding: 0 5px;
+  float: right;
+  background: #ddd;
+  border: 1px solid #222;
+  box-shadow: 3px 3px 0 #222;
+}
+
+.song p {
+  color: white;
+  padding-left: 10px;
+  padding-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* END */

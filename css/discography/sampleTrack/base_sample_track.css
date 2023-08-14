@@ -1,0 +1,64 @@
+/* TRACK */
+.content {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.background {
+  background: url("/assets/images/sampleTrack.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  opacity: 0.7;
+  z-index: 2;
+  overflow-x: hidden;
+}
+
+.title-content {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+}
+.title-content h1 {
+  color: white;
+  /* top: 20px; */
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -500px;
+  overflow-y: scroll;
+  overflow-y: hidden;
+}
+
+.track img {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.track .fix {
+  position: relative;
+  top: 0px;
+}
+
+figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  width: 200px;
+  height: 73px;
+  margin-left: 10px;
+}
+
+/* END */

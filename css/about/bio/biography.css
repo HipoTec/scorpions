@@ -1,0 +1,103 @@
+body {
+  overflow-x: hidden;
+}
+
+.title-content {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 40px;
+  text-align: center;
+  overflow-x: hidden;
+  position: relative;
+  top: 20px;
+}
+
+.content h1 {
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.isi {
+  width: 100%;
+  display: flex;
+  border: 2px solid red;
+  padding: 20px;
+  text-align: justify;
+}
+
+.isi-bot {
+  position: relative;
+  left: 60px;
+  width: 90%;
+  display: flex;
+  display: flex;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+}
+.what {
+  margin-top: 40px;
+  position: relative;
+  left: 40%;
+  width: 19%;
+  background-color: burlywood;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.sum-kanan {
+  color: white;
+  display: flex;
+  width: 1060px;
+  position: relative;
+  left: -910px;
+  padding-right: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.sum-kiri {
+  width: 1080px;
+  padding-right: 20px;
+  color: white;
+  line-height: 1.5;
+}
+
+.bio {
+  color: white;
+  margin-bottom: 40px;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.name {
+  color: red;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  width: 150px;
+}
+
+.profile {
+  display: flex;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.kanan {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 80%;
+}
+
+.what {
+  color: red;
+  font-size: 30px;
+  line-height: 1.5;
+}

@@ -1,0 +1,94 @@
+/* TOP */
+.background-1 {
+  height: 100vh;
+  background-image: url("/assets/images/homePage.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 65%;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 68%;
+  cursor: pointer;
+}
+
+.logo img {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(-90deg);
+  width: 60px;
+  height: 70px;
+}
+
+.title-swipe {
+  color: white;
+}
+
+/* END */
+
+/* BOT */
+.background-2 {
+  height: 100vh;
+  background-image: url("/assets/images/homePage2.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.title-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+
+.title-content h1 {
+  color: white;
+  margin-left: 20px;
+  margin-right: 40px;
+  position: relative;
+  left: 25%;
+  font-size: 50px;
+}
+
+.content table {
+  width: 65%;
+  position: relative;
+  top: 150px;
+  left: -100px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* border: 1px solid white; */
+  /* padding: 10px; */
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+td {
+  padding-left: 50px;
+  display: flex;
+  text-align: justify;
+  margin-right: 120px;
+}
+
+th span {
+  color: red;
+  font-size: 30px;
+}
+
+/* END */

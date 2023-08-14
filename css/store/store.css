@@ -1,0 +1,128 @@
+/* CONTENT */
+body {
+  overflow-x: hidden;
+}
+
+.slideshow img {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.top,
+.bot {
+  /* ... Other CSS rules ... */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.store-1 {
+  position: relative;
+  left: 20px;
+}
+
+.store-2 {
+  position: relative;
+  left: 35px;
+}
+
+.store-4 {
+  position: relative;
+  left: 80px;
+}
+
+.store-5 {
+  position: relative;
+  left: 110px;
+}
+
+.store-6 {
+  position: relative;
+  left: 90px;
+}
+
+.store-1:hover,
+.store-2:hover,
+.store-3:hover,
+.store-4:hover,
+.store-5:hover,
+.store-6:hover {
+  /* Add the zoom-in effect */
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.top span {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.price-1 {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+.price-2 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  text-align: center;
+  color: white;
+}
+
+.price-2:hover {
+  color: red;
+}
+
+.price-3 {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  text-align: center;
+}
+
+.bot span {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.price-4 {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  text-align: center;
+}
+
+.price-5 {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  text-align: center;
+}
+
+.price-6 {
+  position: relative;
+  left: 80px;
+  text-align: center;
+  top: 20px;
+}
+
+.top figcaption {
+  border: 2px solid red;
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(183, 177, 177);
+  margin-bottom: 20px;
+}
+
+.bot figcaption {
+  border: 2px solid red;
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(183, 177, 177);
+  margin-bottom: 20px;
+}
+/* END */
